@@ -1,15 +1,38 @@
 {
-  "name": "video26",
+  "name": "video",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "StavVideo26",
+  "main": "app/js/index.js",
   "scripts": {
-    "start": "cross-env PORT=5000 node ./index.js"
+    "start": "cross-env PORT=3000 node ./index.js"
   },
-  "author": "",
+  "author": "Neek_Sych",
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
-    "express": "^4.18.1"
-  }
+    "del": "^7.0.0",
+    "express": "^4.18.1",
+    "gulp-less": "^5.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-sync": "^0.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeekSych/StavVideo26.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NeekSych/StavVideo26/issues"
+  },
+  "homepage": "https://github.com/NeekSych/StavVideo26#readme",
+  "overrideBrowserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
